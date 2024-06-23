@@ -288,3 +288,71 @@ align-items: center;
 .section-title{
   text-align: center;
 }
+.strelka{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+  p{
+    opacity: 50%;
+  }
+}
+.cards{
+  width: 358px;
+  height: 240px;
+  top: 4036px;
+  left: 233px;
+  gap: 0px;
+  opacity: 0.05px;
+border: 2px solid rgb(31, 31, 31);
+background-color: rgba(34, 33, 33, 0.726);
+display: flex;
+align-items: start;
+flex-direction: column;
+padding: 6px;
+margin: 16px;
+.card{
+  display: flex;
+  align-items: start;
+ flex-direction: row;
+ margin-top: 25px;
+ gap: 15px;
+ p{
+  opacity: 40%;
+ }
+}
+.mujik{
+  margin: 5px;
+}
+}
+.block{
+  display: flex;
+  .best__arrow{
+
+    position:relative;
+    top: 145px;
+    background-color: #579A6A;
+    ;
+    border-radius: 50%;
+    min-width:50px;
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.5;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  .best__arrow1{
+   left: 40px;
+  }
+  .best__arrow2{
+    right: 40px;
+  }
+}
